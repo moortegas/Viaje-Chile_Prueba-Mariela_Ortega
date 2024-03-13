@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Navbar */
+#headder{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar{
+    padding: 50px 0;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+}
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+.nav-link{
+    color: #ccc !important;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 700;
+}
+.nav-link:hover{
+    background: #dcdde1 !important;
+    color: #262626 !important;
+    border-radius: 5px;
+    transition: all 0.6s ease 0s;
+}
+
+/* Body */
+body{
+font-family: 'Releway', sans-serif;
+font-size: 14px;
+font-weight: 200;
+color: #777;
+background: black;
+box-sizing: border-box;
+}
+
+/* ¿Quienes Somos? */
+.title h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));
+    gap: 1em;
+    grid-template-rows: minmax(20px, auto);
+}
+
+.box{
+    background: #62c7d0;
+    padding: 10px;
+    color: #fff;
+    text-align:center;
+}
+
+
+/* Card */
+.card {
+    background: #62c7d0;
+    color: #FFFFFF;
+    display: flex;
+}
+
+/* Formulario */
+.formulario{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/* Footer */
+.bi{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.footer_section {
+    background: #62c7d0;
+}
+.text-uppercase {
+text-align: center;
+color: var(--white);
+font-size: 1.5rem;
+font-weight: 500;
+padding: 20px 0;
+}
+
+/* media */
+@media (max-width:767px){
+    .my-nav navbar-nav .open .dropdown-menu >li >a{
+        color:#ecf0f1;
+    }
+}
